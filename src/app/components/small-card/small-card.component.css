@@ -22,7 +22,7 @@
   object-fit: cover;
 }
 
-.small-card__title{
+a{
   display:flex;
   justify-content: center;
   align-items: center;
