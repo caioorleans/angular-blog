@@ -6,7 +6,7 @@
 .container__menu-title h1 {
   margin-top:10px;
   margin-bottom: 10px;
-  font-size:135px;
+  font-size:100px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   display: flex;
   justify-content: center;
@@ -16,4 +16,10 @@
 .container__menu-title hr{
   margin-top:20px;
   margin-bottom: 5px;
+}
+
+@media screen and (max-width:700px) {
+  .container__menu-title h1{
+    font-size: 50px;
+  }
 }
