@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { dataFake } from 'src/app/data/data_fake';
 
 @Component({
   selector: 'app-home',
